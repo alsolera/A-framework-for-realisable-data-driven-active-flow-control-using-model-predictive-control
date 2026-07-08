@@ -1,0 +1,11 @@
+// -*- C++ -*-
+
+#includeEtc "caseDicts/postProcessing/flowRate/flowRatePatch.cfg"
+
+writeControl    runTime;
+writeInterval   0.01;
+
+name    jet2;
+
+
+// ************************************************************************* //

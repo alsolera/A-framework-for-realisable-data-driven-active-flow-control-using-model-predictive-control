@@ -1,0 +1,20 @@
+// -*- C++ -*-
+
+#includeEtc "caseDicts/postProcessing/forces/forceCoeffsIncompressible.cfg"
+
+writeControl    runTime;
+writeInterval   0.01;
+
+patches (truck jet1 jet2);
+
+magUInf     1;
+lRef        1;
+Aref        1;
+
+liftDir     (0 1 0);
+dragDir     (1 0 0);
+CofR        (0 0 0);
+pitchAxis   (0 0 1);
+
+
+// ************************************************************************* //

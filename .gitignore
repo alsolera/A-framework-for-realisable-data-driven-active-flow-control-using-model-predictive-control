@@ -1,0 +1,33 @@
+/02_Logs/
+# Full PLDM checkpoint + SHAP-selected slim encoder are shipped for
+# reproducibility; everything else under 03_Checkpoints/ and 04_Results/
+# is generated locally by the scripts and stays gitignored.
+/03_Checkpoints/*
+!/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/
+/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/*
+!/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/20250906_19_38_58_*.pth.tar
+!/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/
+/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/*
+!/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/
+/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/*
+!/03_Checkpoints/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/*_phase2_slim_shap_encoder_slim_shap.pth.tar
+
+/04_Results/*
+!/04_Results/jet_2Dtruck_20250307_FMsignal_50000/
+/04_Results/jet_2Dtruck_20250307_FMsignal_50000/*
+!/04_Results/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/
+/04_Results/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/*
+!/04_Results/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/
+/04_Results/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/*
+!/04_Results/jet_2Dtruck_20250307_FMsignal_50000/shap_optim_runs/20250906_19_38_58_LSTM_dim8_lb32_l1_h256_dr0.0_lr0.001_bs512_wC_ntest0_SHAP_Optim_20250906_22_12_02/*_shap_selected_indices.txt
+/.idea/
+/mlruns/0/meta.yaml
+/05_RL_Logs/
+/06_RL_Models/
+/mlruns/
+physics-simulation-engine/fluid-openfoam/processor*/
+
+__pycache__/
+*.pyc
+*.zip
+
