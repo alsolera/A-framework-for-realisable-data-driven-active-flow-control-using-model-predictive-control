@@ -2,7 +2,7 @@
 
 A. Solera-Rico, C. Sanmiguel Vila, S. Discetti. A framework for realisable
 data-driven active flow control using model predictive control applied to a simplified
-truck wake. Engineering Applications of Artificial Intelligence (2026).
+truck wake. Engineering Applications of Artificial Intelligence (2026). https://doi.org/10.1016/j.engappai.2026.115580.
 
 Preprint [arXiv: 2510.11600.](https://arxiv.org/abs/2510.11600)
 
